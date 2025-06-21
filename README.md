@@ -1,13 +1,35 @@
-# ThermoTunes
-Generating music that reflects earth's global temperature data.
+# 🌡️ ThermoTunes: Climate Data Turned Into Music
 
-## Features
+What if climate change could be heard instead of just seen? **ThermoTunes** transforms decades of global temperature data into emotionally resonant music.
 
-- **Generative Music Creation**: Utilizes AI algorithms to generate unique musical pieces based on temperature data.
-- **Environmental Awareness**: Each composition serves as a reminder of the changing climate, fostering a deeper connection between listeners and the environment.
+## 🎵 What is ThermoTunes?
+**ThermoTunes** is a generative AI project that sonifies climate change by:
+- Mapping global temperature values to musical notes
+- Designing chord progressions and rhythm patterns based on data
+- Training an LSTM model to generate expressive MIDI sequences
+- Enabling interactive visualization and playback through a Streamlit app
 
 
+## 🔧 Tech Stack
+- **Python** | **PyTorch** | **NumPy** | **scikit-learn**
+- **MIDIUtil**, **Mido** – For MIDI generation
+- **Streamlit** – For web UI & interaction
 
-### Requirements
--MIDIUtil
--mido
+
+## 🚀 Run the Project
+```bash
+# Clone the repo
+$ git clone https://github.com/yourusername/thermotunes.git
+$ cd thermotunes
+
+# Install dependencies
+$ pip install -r requirements.txt
+
+# Launch the Streamlit app
+$ streamlit run streamlit_app.py
+```
+
+
+---
+Crafted with ❤️ to make climate data resonate. Let the Earth be heard.
+
